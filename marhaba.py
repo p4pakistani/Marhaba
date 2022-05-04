@@ -79,14 +79,6 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.1)
-##### INTRO #####
-def logo():
-    os.system('echo -e "\n\n\033[1;92m    .S Jutt Badshah        .SSS\n\033[1;92m   Jutt Badshah       SSSs\n\033[1;91m   Jutt Badshah      SSS%S\n\033[1;91m   Jutt Badshah S%S\n\033[1;97m   S&S  S%Sâ€¢SSSS%S  S%S   s..s   S%S\n\033[1;97m   S&S  Jutt Badshah    S&S\n\033[1;94m   Jutt Badshah         S&S\n\033[1;94m   Jutt Badshah  Jutt Badshah\n\033[1;93m   Jutt Badshah  S*S          S*S\n\033[1;93m  Jutt Badshah          S*S\n\033[1;96msdSSS   Jutt Badshah        S*S\n\033[1;96mYSSY    Jutt Badshah S*S\n\033[1;91m-----------------------------------------------\n\033[1;97mâž£ Author : Jutt Badshah x  ????\n\033[1;97mâž£ Github : https://github.com/jutt-badshah\n\033[1;97mâž£ Wp +923007574310\n\033[1;91m-----------------------------------------------" | lolcat')
-def tik():
-	titik = ['.   ','..  ','... ']
-	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-
 def ip():
     os.system('clear')
     logo()
